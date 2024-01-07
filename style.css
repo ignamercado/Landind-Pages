@@ -82,26 +82,20 @@
 /* MAIN - SERVICIOS */
 
 .servicios {
-    background-color: rgb(48, 46, 62);
+    background-color: rgb(234, 234, 160);
     height: 100vh;
     text-align: center;
-    position: relative; 
+    background-color: rgb(43, 43, 79);
     color: white;
 }
 
 .tituloServicios {
     font-size: 2rem;
     font-weight: bold;
-    position: absolute;
-    top: 30px; 
-    left: 50%; 
-    transform: translateX(-50%); 
+    padding-top:  20px; /* Ajusta según sea necesario */
 }
 
 .subtServicios {
-    font-size: 1.2rem;
-    position: absolute;
-    top: 80px; 
-    left: 50%; 
-    transform: translateX(-50%); 
+    font-size: 1.4rem;
+    padding-top: 30px; /* Ajusta según sea necesario */
 }
