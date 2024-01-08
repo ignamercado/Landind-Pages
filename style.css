@@ -66,10 +66,11 @@
 }
 
 .imagenMain {
-    width: 70%;
+    width: 50%;
     height: 80%;
     align-self: flex-end;
     margin-top: 20px;
+    margin-left: 300px;
 }
 
 .btnCotizacion{
@@ -87,6 +88,21 @@
     text-align: center;
     background-color: rgb(43, 43, 79);
     color: white;
+}
+
+.serviciosTexto{
+    height: 20vh;
+    background-color: rgb(203, 163, 163);
+}
+
+.serviciosImagenes{
+    height: 80vh;
+    padding: 50px;
+    display: flex;
+}
+
+.serviciosFotos{
+    padding: 20px;
 }
 
 .tituloServicios {
