@@ -111,6 +111,7 @@
     font-size: 2rem;
     font-weight: bold;
     padding-top:  20px; 
+    padding-left: 20px;
 }
 
 .subtServicios {
@@ -144,7 +145,7 @@
     height: 100%;
     background-color: lightblue;
     display: flex;
-    flex-direction: column; /* Cambio de dirección a columna */
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
 }
@@ -156,14 +157,77 @@
 }
 
 .textoHaciaAbajo {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 20px; 
-    width: 40%;
+    width: 60%;
     text-align: center;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .seccionTextoTelefono button {
     margin-left: 10px; 
     border-radius: 7px;
     padding: 3px;
+}
+
+/* Cuarta seccion */
+
+.cuartaSeccion {
+    height: 100vh;
+    background-color: rgb(189, 252, 255);
+    display: flex;
+    background-image: url('assets/fondo 4ta Sec.jpg');
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir completamente el fondo */
+    background-position: center; /* Centra la imagen */
+    opacity: 0.8; /* Ajusta la opacidad (un valor entre 0 y 1) */
+}
+
+.beneficiosLanding, .formBeneficios{
+    width: 50%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cajaNegraDifuminada {
+    height: 60vh;
+    width: 70vh;
+    background-color: rgba(0, 0, 0, 0.438);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    position: relative; 
+}
+
+.textoIconos{
+    display: flex;
+    padding: 20px;
+}
+
+.formularioBeneficios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute; 
+    bottom: 0; 
+    width: 100%; 
+}
+
+.formularioBeneficios input {
+    margin-bottom: 10px; 
+}
+
+.estilosForm{
+    width: 33vw;
+}
+
+.btnSubmit{
+    background-color: aquamarine;
+    padding: 2px 20px 2px 20px;
+    margin-bottom: 5px;
+    width: 33vw;
 }
