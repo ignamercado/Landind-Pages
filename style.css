@@ -8,7 +8,7 @@
     width: 100%;
     height: 15vh;
     display: flex;
-    background-color: rgb(26, 23, 43);
+    background-color: rgb(221, 202, 93);
 }
 
 .headerUno {
@@ -45,9 +45,9 @@
     font-size: 1.3rem;
 }
 
-/* MAIN - PRESENTACION*/
+/* MAIN */
 
-.presentacion {
+.primeraSeccion {
     width: 100%;
     background-color: rgb(14, 14, 41);
     display: flex;
@@ -55,10 +55,12 @@
     color: white;
 }
 
+.presentacionMain{
+    padding: 20px 0 0 60px;
+}
 .presentacionMain .fotoMain {
     width: 50%;
     display: flex;
-     /* Alinea la imagen al final del contenedor verticalmente */
 }
 
 .tituloMain{
@@ -80,9 +82,8 @@
     font-size: 1rem;
 }
 
-/* MAIN - SERVICIOS */
-
-.servicios {
+/* Segunda Seccion */
+.segundaSeccion {
     background-color: rgb(234, 234, 160);
     height: 100vh;
     text-align: center;
@@ -97,7 +98,8 @@
 
 .serviciosImagenes{
     height: 80vh;
-    padding: 50px;
+    padding: 50px 50px 50px 150px;
+
     display: flex;
 }
 
@@ -108,10 +110,60 @@
 .tituloServicios {
     font-size: 2rem;
     font-weight: bold;
-    padding-top:  20px; /* Ajusta según sea necesario */
+    padding-top:  20px; 
 }
 
 .subtServicios {
     font-size: 1.4rem;
-    padding-top: 30px; /* Ajusta según sea necesario */
+}
+
+.imagenConTexto{
+    margin-left: 15px;
+}
+
+
+/* Tercer seccion */
+.tercerSeccion {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(240, 251, 184);
+    display: flex;
+}
+
+.seccionTelefono {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.seccionTextoTelefono {
+    width: 50%;
+    height: 100%;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column; /* Cambio de dirección a columna */
+    justify-content: center;
+    align-items: center;
+}
+
+.seccionTelefono img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.textoHaciaAbajo {
+    font-size: 2rem;
+    margin-bottom: 20px; 
+    width: 40%;
+    text-align: center;
+}
+
+.seccionTextoTelefono button {
+    margin-left: 10px; 
+    border-radius: 7px;
+    padding: 3px;
 }
