@@ -99,7 +99,7 @@
             </div>
             <div class="formBeneficios">
                 <div class="cajaNegraDifuminada">
-                    <div class="textoIconos">
+                    <!-- <div class="textoIconos">
                         <img src="assets/info_.png" alt="">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium magni dignissimos id
                             maiores veniam enim.</p>
@@ -108,13 +108,24 @@
                         <img src="assets/security.png" alt="">
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis earum pariatur
                             corporis laboriosam dicta iusto.</p>
-                    </div>
-                    <form class="formularioBeneficios">
-                        <input class="estilosForm" type="text" id="nombre" name="nombre" placeholder="Nombre" required>
-
-                        <input class="estilosForm" type="email" id="email" name="email" placeholder="Email" required>
-
-                        <button class="btnSubmit" type="submit">Enviar</button>
+                    </div> -->
+                    <form action="#" method="post" id="contactForm">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" id="apellido" name="apellido" required>
+                
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" id="telefono" name="telefono" required>
+                
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                
+                        <label for="comentarios">Comentarios:</label>
+                        <textarea id="comentarios" name="comentarios" rows="6" maxlength="500" required></textarea>
+                
+                        <button type="submit">Enviar</button>
                     </form>
                 </div>
             </div>
