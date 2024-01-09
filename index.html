@@ -1,30 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Linkeo al CSS -->
     <link rel="stylesheet" href="style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>M&P Websites</title>
 </head>
+
 <body>
 
     <!-- HEADER -->
     <header>
-        <div class="headerContenedor">
-            <div class="headerUno">
-                <img class="imagenLogo" src="./assets/logo.png" alt="logo">
+        <nav>
+            <div class="headerContenedor">
+                <div class="headerUno">
+                    <img class="imagenLogo" src="./assets/logo-provisorio.png" alt="logo">
+                </div>
+                <div class="headerDos">
+                    <ul class="ulHeader">
+                        <a href="">
+                            <li>Inicio</li>
+                        </a>
+                        <a href="">
+                            <li>Servicios</li>
+                        </a>
+                        <a href="">
+                            <li>Nosotros</li>
+                        </a>
+                        <a href="">
+                            <li>Contacto</li>
+                        </a>
+                    </ul>
+                </div>
             </div>
-            <div class="headerDos">
-                <ul class="ulHeader">
-                    <a href=""><li>Inicio</li></a>
-                    <a href=""><li>Servicios</li></a>
-                    <a href=""><li>Nosotros</li></a>
-                    <a href=""><li>Contacto</li></a>
-                </ul>
-            </div>
-        </div>
+        </nav>
     </header>
 
     <!-- MAIN -->
@@ -43,11 +56,11 @@
 
         <!-- SEGUNDA SECCION 100VH -->
         <div class="segundaSeccion">
-           <div class="serviciosTexto">
-               <p class="tituloServicios">¿Qué brindamos?</p>
-               <p class="subtServicios">Soluciones que satisfacen las necesidades de tu proyecto</p>
-           </div>
-           <div class="serviciosImagenes">
+            <div class="serviciosTexto">
+                <p class="tituloServicios">¿Qué brindamos?</p>
+                <p class="subtServicios">Soluciones que satisfacen las necesidades de tu proyecto</p>
+            </div>
+            <div class="serviciosImagenes">
                 <div class="imagenConTexto">
                     <img class="serviciosFotos" src="assets/logo.png" alt="">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -60,7 +73,7 @@
                     <img class="serviciosFotos" src="assets/logo.png" alt="">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
-           </div>
+            </div>
         </div>
 
         <!-- TERCERA SECCION 100VH -->
@@ -70,9 +83,9 @@
             </div>
             <div class="seccionTextoTelefono">
 
-                    <p class="textoHaciaAbajo">La mejor forma para mostrar tu hermoso producto</p>
-                    <button>CONTACTÁNOS</button>
-                    
+                <p class="textoHaciaAbajo">La mejor forma para mostrar tu hermoso producto</p>
+                <button>CONTACTÁNOS</button>
+
 
             </div>
         </div>
@@ -81,36 +94,61 @@
         <div class="cuartaSeccion">
             <div class="beneficiosLanding">
                 <p class="tituloServicios">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique voluptatem perspiciatis nam corporis.</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique voluptatem perspiciatis nam
+                    corporis.</p>
             </div>
             <div class="formBeneficios">
                 <div class="cajaNegraDifuminada">
                     <div class="textoIconos">
                         <img src="assets/info_.png" alt="">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium magni dignissimos id maiores veniam enim.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium magni dignissimos id
+                            maiores veniam enim.</p>
                     </div>
                     <div class="textoIconos">
                         <img src="assets/security.png" alt="">
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis earum pariatur corporis laboriosam dicta iusto.</p>    
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis earum pariatur
+                            corporis laboriosam dicta iusto.</p>
                     </div>
                     <form class="formularioBeneficios">
                         <input class="estilosForm" type="text" id="nombre" name="nombre" placeholder="Nombre" required>
-            
+
                         <input class="estilosForm" type="email" id="email" name="email" placeholder="Email" required>
-            
+
                         <button class="btnSubmit" type="submit">Enviar</button>
                     </form>
                 </div>
             </div>
-            
+
         </div>
 
     </main>
 
+    <div class="container">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-body-secondary">&copy; 2024 M&P - Soluciones Web</p>
+
+            <a href="/"
+                class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+                <svg class="bi me-2" width="40" height="32">
+                    <use xlink:href="#bootstrap" />
+                </svg>
+            </a>
+
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+            </ul>
+        </footer>
+    </div>
 
 
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
